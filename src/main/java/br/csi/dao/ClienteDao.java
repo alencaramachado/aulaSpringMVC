@@ -18,7 +18,7 @@ public class ClienteDao {
 		clientes.add(c);
 	}
 	
-	public boolean adicionar(Cliente c){
+	public boolean adicionar(Cliente c){			
 		
 		System.out.println("Nome: "+c.getNome());
 		System.out.println("Rua: "+c.getRuaNroComp());
